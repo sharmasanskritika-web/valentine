@@ -1,10 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Valentine</title>
+  <title>Valentine 💖</title>
+  <style>
+    body {
+      background: #ffd6e8;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      color: #d6336c;
+    }
+    button {
+      padding: 12px 20px;
+      margin: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .yes {
+      background: #40c057;
+      color: white;
+    }
+    .no {
+      background: #fa5252;
+      color: white;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Hello 💖</h1>
-  <p>This is my first website.</p>
+  <h1>Will you be my Valentine? 💕</h1>
+
+  <div>
+    <button class="yes" onclick="yesClick()">Yes</button>
+    <button class="no" onclick="noClick()">Are you sure?</button>
+  </div>
+
+  <script>
+    function yesClick() {
+      alert("YAYYYY 💖💖💖");
+    }
+
+    function noClick() {
+      alert("Think again 😏");
+    }
+  </script>
 </body>
 </html>
+
